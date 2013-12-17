@@ -3,6 +3,7 @@ import java.rmi.RemoteException;
 
 
 public interface RMIinterface extends Remote {
-	public int remoteMethod(int x) throws RemoteException;
-	//public String sayMonth(String msg) throws RemoteException;
+	public String showDayOfMonth(int x) throws RemoteException;
+	public String showColourOfDay(int y) throws RemoteException;
+	public String showHolidayOfMonth(int z) throws RemoteException;
 }
